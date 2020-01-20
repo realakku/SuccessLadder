@@ -1,0 +1,74 @@
+
+ <html>
+<head>
+<title>sucessladders</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<script type="text/javascript" language="javascript">
+function verifyData()
+{
+ if(document.getElementById('username').value=="")
+ {
+   alert("Please enter the username");
+   return false;
+ }
+ else if(document.getElementById('password').value=="")
+ {
+   alert("Please enter the password");
+   return false;
+ }  
+
+}
+</script> 
+<html>
+<body>
+<script type="text/javascript" language="javascript">
+function verifyData()
+{
+ if(document.getElementById('newuserid').value=="")
+ {
+   alert("Please enter the newuserid");
+   document.getElementById('newuserid').focus();
+   return false;
+ }
+ else if(document.getElementById('password').value=="")
+ {
+   alert("Please enter the password");
+   document.getElementById('password').focus();
+   return false;
+ }  
+
+}
+</script> 
+<form action="login.php" method="post" id="login" name="login" onSubmit="return verifyData(document.login);">
+<link href="finalsl.css" rel="stylesheet" type="text/css">
+<table class="pageheader" height="25%" width="100%" cellspacing="0">
+<tr> <td>  </td></tr>   </table>
+<table cellspacing="0" height="7%" width="100%" border="1" bordercolor="#0080C0">
+<tr><td><script src="xaramenu.js"></script><script webstyle3 src="cutback1.js"></script> </td></tr></table>
+<table width="70%"  cellpadding="10" cellspacing="0" align="center">
+<th bgcolor="#003366"  colspan="2"><i><h1 style="color:#00CCFF">DEAR JOB SEEKERS,WELCOME TO SUCCESSLADDER...</h1></i></th>
+<tr  bgcolor="#008080"><th  align="center" colspan="2"><b><h2>WHY REGISTER?</h2></b></th></tr>
+<tr bgcolor="#66CCFF"><td colspan="2">*FREE!Job searching limited period offer.</td></tr>
+<tr bgcolor="#66CCFF"><td colspan="2">*FREE!Resume Database upload. </td></tr>
+<tr bgcolor="#66CCFF"><td colspan="2">*Daily FREE! Resume alerts about new jobs of your interest.</td></tr>
+<tr bgcolor="66CCFF" ><td colspan="2">*Preparing yourself for a new jobnew!</td></tr>
+<tr bgcolor="#66ccff"><td colspan="2">*You may contact the job semployers of matching profile by sending them email,absolutely FREE!
+</td></tr>
+<tr bgcolor="#66ccff"><td colspan="2">*For a nominal cost you may even see the jobs on the site.</td></tr>
+<tr bgcolor="#66ccff"><td colspan="2">*You may receive information directly from the job employers....and much more.</td></tr>
+<tr bgcolor="#008080"><th align="center" colspan="2"><b><h2><i>REGISTERED candidates!</i></h2></b></th></tr>
+<tr bgcolor="#66ccff"><td align="right"><b>NEWUSERID:</b></td><td><input type="text" size="25" name="newuserid" id="newuserid"></td></tr>
+<tr bgcolor="#66ccff"><td align="right"><b>PASSWORD:</b></td><td><input type="password" size="25" name="password" id="password" ></td></tr>
+
+<tr bgcolor="#008080"><td colspan="2" align="center"><input type="submit"  value="login" name="login" id="login">
+
+<table cellspacing="0" height="8%" width="100%" >
+<tr><td><script webstyle3 src="dingleberry.js"></script></td>
+</tr>
+</table>
+</table>
+</form>
+</body>
+
+</html>

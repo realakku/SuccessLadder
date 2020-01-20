@@ -1,0 +1,257 @@
+<html>
+<body>
+<link href="finalsl.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" language="javascript">
+function verifyData()
+{
+ if(document.getElementById('email').value=="")
+ {
+   alert("Please enter email");
+   document.getElementById('email').focus();
+   return false;
+ }
+ else if(document.getElementById('fname').value=="")
+ {
+   alert("Please enter first name");
+   document.getElementById('fname').focus();
+   return false;
+ }  
+ else if(document.getElementById('lname').value=="")
+ {
+   alert("Please enter last name");
+   document.getElementById('lname').focus();
+   return false;
+ } 
+  else if(document.getElementById('password').value=="")
+ {
+   alert("Please enter password");
+   document.getElementById('password').focus();
+   return false;
+ } 
+  else if(document.getElementById('gender').value=="")
+ {
+   alert("Please enter gender");
+   document.getElementById('gender').focus();
+   return false;
+ }
+  else if(document.getElementById('dob').value=="")
+ {
+   alert("Please enter date of birth");
+   document.getElementById('dob').focus();
+   return false;
+ }  
+  else if(document.getElementById('nationality').value=="")
+ {
+   alert("Please enter nationality");
+   document.getElementById('nationality').focus();
+   return false;
+ } 
+  else if(document.getElementById('mobile').value=="")
+ {
+   alert("Please enter mobile number");
+   document.getElementById('mobile').focus();
+   return false;
+ }  
+ else if(document.getElementById('address').value=="")
+ {
+   alert("Please enter address");
+   document.getElementById('address').focus();
+   return false;
+ }  
+ else if(document.getElementById('city').value=="")
+ {
+   alert("Please enter city");
+   document.getElementById('city').focus();
+   return false;
+ }  
+ else if(document.getElementById('state').value=="")
+ {
+   alert("Please enter state");
+   document.getElementById('state').focus();
+   return false;
+ } 
+  else if(document.getElementById('country').value=="")
+ {
+   alert("Please enter country");
+   document.getElementById('country').focus();
+   return false;
+ }  
+ else if(document.getElementById('pincode').value=="")
+ {
+   alert("Please enter pincode");
+   document.getElementById('pincode').focus();
+   return false;
+ }  
+ else if(document.getElementById('curremp').value=="")
+ {
+   alert("Please enter current employment");
+   document.getElementById('curremp').focus();
+   return false;
+ }  
+ else if(document.getElementById('currdes').value=="")
+ {
+   alert("Please enter current designation");
+   document.getElementById('currdes').focus();
+   return false;
+ }  
+ else if(document.getElementById('workyear').value=="")
+ {
+   alert("Please enter work year");
+   document.getElementById('workyear').focus();
+   return false;
+ } 
+  else if(document.getElementById('workmonth').value=="")
+ {
+   alert("Please enter work month");
+   document.getElementById('workmonth').focus();
+   return false;
+ }  
+ else if(document.getElementById('degree').value=="")
+ {
+   alert("Please enter degree");
+   document.getElementById('degree').focus();
+   return false;
+ }  
+ else if(document.getElementById('uniname').value=="")
+ {
+   alert("Please enter university name");
+   document.getElementById('uniname').focus();
+   return false;
+ }  
+ else if(document.getElementById('clgname').value=="")
+ {
+   alert("Please enter college name");
+   document.getElementById('clgname').focus();
+   return false;
+ }  
+ else 
+ { alert("You have been registered");
+
+ return true;
+}
+}
+</script>
+<form id="slresume"  action="slresume.php" method="post" name="slresume" onSubmit="return verifyData(document.slresume);">
+<table class="pageheader" height="25%" width="100%" cellspacing="0">
+<tr> <td>  </td></tr>   </table>
+<table cellspacing="0" height="7%" width="100%" border="1" bordercolor="#0080C0">
+<tr><td><script src="xaramenu.js"></script><script webstyle3 src="cutback1.js"></script></script>
+ </td></tr></table>
+<table width="100%"  cellpadding="10" cellspacing="0">
+<th bgcolor="#003366"  colspan="2">
+<i><h1 style="color:#00CCFF">SUBMIT RESUME</h1></i></th>
+<tr  bgcolor="#008080"><th  align="center" colspan="2">
+<b><h2>Get Started with <I>SUCCESS LADDER:</i></h2></b>
+</th></tr>
+<tr bgcolor="#66CCFF"><td align="right" width="50%">EMAIL ADDRESS:</td><td align="left" width=
+"50%"><input type="text" name="email" id="email" size="25"></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">FIRST NAME:</td><td><input type="text" name="fname" id="fname" size="25"></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">LAST NAME:</td><td><input type="text" name="lname" id="lname" size="25"></td></tr>
+<tr bgcolor="66CCFF" ><td align="right">PASSWORD:</td><td><input type="password" name="password" id="password" size="25"></td></tr>
+<tr bgcolor="#008080"><th align="center" colspan="2"><b><h2><i>Personal Details:</i></h2></b></th></tr>
+<tr bgcolor="66CCFF"><td align="right">GENDER:</td><td>
+<input type="radio" name="gender" id="gender" value="MALE" checked="checked">MALE<br>
+<input type="radio" name="gender" id="gender" value="FEMALE">FEMALE
+</td></tr>
+<tr bgcolor="#66CCFF"><td align="right">DATE OF BIRTH:</td><td>
+<select name="dob" id="dob">Year
+<option value="2000" selected="selected">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+<option value="1994">1994</option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option>
+<option value="1989">1989</option>
+<option value="1988">1988</option>
+<option value="1987">1987</option>
+<option value="1986">1986</option>
+<option value="1985">1985</option>
+<option value="1984">1984</option>
+<option value="1983">1983</option>
+<option value="1982">1982</option>
+<option value="1981">1981</option>
+<option value="1980">1980</select>
+
+<select name="dob" id="dob">Month
+<option value="JANUARY" selected="selected">JANUARY</option>
+<option value="FEBRUARY">FEBRUARY</option>
+<option value="MARCH">MARCH</option>
+<option value="april">APRIL</option>
+<option value="MAY">MAY</option>
+<option value="june">JUNE</option>
+<option value="july">JULY</option>
+<option value="august">AUGUST</option>
+<option value="SEPTEMBER">SEPTEMBER</option>
+<option value="october">OCTOBER</option>
+<option value="november">NOVEMBER</option>
+<option value="DECEMBER">DECEMBER</option></select>
+<select name="dob" id="dob">Date
+<option value="01" selected="selected">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="22">22</option>
+<option value="24">23</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option></select>
+</td></tr>
+<tr bgcolor="#66ccff"><td align="right">NATIONALITY:</td><td><input type="text" name="nationality" id="nationality" size="25"></td></tr>
+<tr bgcolor="#008080"><th align="center" colspan="2"><b><h2><i>Contact Details:</i></h2></b></th></tr>
+<tr bgcolor="#66ccff"><td align="right">MOBILE NUMBER:</td><td><input type="text"  name="mobile" id="mobile" size="25"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">ADDRESS:</td><td><input type="text"  name="address" id="address" size="25"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">CITY:</td><td><input type="text" name="city" id="city" size="15"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">STATE:</td><td><input type="text" name="state" id="state" size="15"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">COUNTRY:</td><td><input type="text" name="country" id="country" size="15"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">PINCODE:</td><td><input type="text" name="pincode" id="pincode" size="15"></td></tr>
+<tr bgcolor="#008080"><th align="center" colspan="2"><b><h2><i>Resume Highlights:</i></h2></b></th></tr>
+<tr bgcolor="#66ccff"><td align="right">CURRENT EMPLOYMENT:</td><td>
+<input type="radio" name="curremp" id="curremp" value="Full Time">Full Time
+<input type="radio" name="curremp" id="curremp" value="Part Time">Part Time
+<input type="radio" name="curremp" id="curremp" value="Contract">Contract
+<input type="radio" name="curremp" id="curremp" checked="checked" value="Not Employed">Not Employed</td></tr>
+<tr bgcolor="#66ccff"><td align="right">CURRENT DESIGNATION:</td><td><input type="text"  name="currdes" id="currdes" size="25"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">WORK EXPERIENCE:</td><td><select name="workyear" id="workyear"><option>YEAR</option><option value="00">00</option><option value="01">01<option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option></select>
+<select name="workmonth" id="workmonth"><option>MONTH</option><option value="00">00</option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option></select>
+</td></tr>
+<tr bgcolor="#008080"><th align="center" colspan="2"><b><h2><i>Educational Qualifications:</i></h2></b></th></tr>
+<tr bgcolor="#66ccff"><td align="right">QUALIFICATION:</td><td><select name="degree" id="degree"><option>DEGREE</option><option value="Doctrate">Doctrate</option><option value="M.phil">M.Phil</option></select>
+<tr bgcolor="#66ccff"><td align="right">UNIVERSITY NAME:</td><td><input type="text" name="uniname" id="uniname" size="25"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">COLLEGE/INSTITUTION NAME:</td><td><input type="text" name="clgname" id="clgname" size="25"></td></tr>
+<tr bgcolor="#008080"><td colspan="2" align="center"><input type="submit"  value="SUBMIT">
+<input type="reset" value="RESET"></td></tr>
+<table cellspacing="0" height="8%" width="100%" >
+<tr><td><script webstyle3 src="dingleberry.js"></script></td>
+</tr>
+</table>
+</table>
+</form>
+</body>
+</html>

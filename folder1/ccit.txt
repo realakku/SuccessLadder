@@ -1,0 +1,140 @@
+Introduction
+
+ The World has entered the new millennium, which is going to be an Information Technology Age. Today Computers have not only assumed strategic importance in the corporate world, they are being effectively used in other fields ranging from space exploration to food processing and banking to communication etc. In this era of Information Technology, which has revolutionised the whole world, INDIA has stood to the world standards and is being regarded the World over for it's skilled IT Professionals. Even the government has recognised the promising future of this industry and has formed a new IT Ministry which will give a boost to this industry.
+Presence of Multinationals like IBM, HP has made possible transfer of hardware technology into the country, Internet has further bridged the time gap ensuring arrival of the latest technology simultaneously in INDIA and the West without delay. The domestic hardware industry has witnessed quantum growth in the turnover and profits, which is largely attributable to our liberalized economy. On the software front various software giants like IBM, Motorola, Oracle, Samsung, HP, Digital, Unisys, AT&T, ICL, Fugitsu etc. have opened software development centres in the country. The number of professionals in this industry is believed to have crossed the 2 lakh mark and still there is a huge gap between the demand and supply of professionals which is an encouraging sign. The US alone requires around 3 lakh professionals, leave aside other countries. It is believed around 65% of the world's software is produced in INDIA. INDIA is also exporting software to around 100 countries including many countries which are exclusive buyers from INDIA. Many Indian IT companies like Infosys, Wipro, NIIT, Zenith computers, Satyam Computers, STG, Pentafore Software, Mastek etc. are expanding themselves in a big way making their presence felt globally.
+
+The phenomenal growth which this industry is witnessing has lead to it being recognised as one of the highly paid industry. As this industry is young, the average age of professionals is lower than any other industry. The availability of skilled, qualified professionals is hardly able to meet the requirement, leaving a large gap to be filled by those with ambition, aptitude and willingness to work hard.
+
+Nature of Work
+There are two main sectors in this field:
+
+Hardware: This includes the physical elements of the computer system and deals with the designing, manufacturing and maintenance of computers. This area also includes the assembling of the manufactured components of the computers.
+
+Software: This includes the set of instructions by which a computer is programmed for working and performing the specified tasks. This realm includes the work of designing the programs for various purposes. Programs may be for controlling the functioning of the computers or they may also be some user-friendly programs for specific needs. The programs may also come in the form of packages, which are designed for meeting the different kinds requirements for large number of people.
+
+Functional areas in Hardware:
+
+Manufacturing: This involves the work of production and assembly of components of computer systems.
+Maintenance: People in maintenance look after the smooth functioning of the machine and help in rectifying and detecting the breakdown in them. They also help in taking preventive measures so that least amount of damage could be caused to the computer systems and peripherals.
+Research and Development: It involves designing of chips and circuits, computer architecture and integration of peripherals. It also includes improvement and upgrading of the existing systems.
+Management: Managers ensure that the development and production work goes on smoothly. They look after the allocation of resources and planning.
+Functional areas in Software:
+
+Manufacture: This involves preparing the set of instructions or programs to let the computer work. This further needs combining of application of computer science and telecommunications principles and creativity.
+Software development: This involves updating and development of existing operations as well as their refining and improvement. All this is carried is carried out in various stages like analysis, designing, construction, implementation etc.
+Data entry: The data for the programs, which are made, have to be fed in computers. So this work is done at data entry level.
+Programmers/Coders: They write and test programs and convert the strategies of the system analyst into working programs.
+Application programmers: They prepare programs either for general purpose or user-friendly programs or some specific programs for individual use along with testing and integrating them.
+Support services: They vary in nature and can range from helping a customers in the purchase of the software, suggesting its right kind of application and providing them with the required training at the initial stage of its use.
+There are other technical areas where one can look for employment in this field:
+
+Computer operations: It requires handling of computer peripherals along with other accessories like CD-ROMs, disk drives, printers etc.
+Database administration: It involves management and maintenance of data.
+Sales and Marketing: The work here involves selling of the computer system and its marketing to different companies or individuals.
+Data center management: It involves management of the dedicated facilities, which houses the critical servers and other networking and backup equipments. Data-centers typically houses those equipment which have to be kept operational 24x7x365.
+Personality
+One should have the following personal attributes if one wishes to enter this filed:
+
+Flexibility and willingness to learn new things, technologies and adopt new methods of work
+Logical thinking
+Ability to focus and concentrate
+Creativity
+Accuracy
+Organizational and administrative abilities
+Confidence
+Ready to work for long hours and ability to work hard
+Ability to take decisions
+High intellectual capacity
+Ability to gel well with people and good communicational skills
+Professional Courses
+This is a specialized field and so academic and technical skills are very essential. There are various courses available at different institutions. Many diploma and degrees courses are there for those who have an aptitude and flair for the subject. These are:
+
+Bachelor in Computer Applications (BCA)
+Bachelor in Science with Computers (B.Sc)
+Masters in Computer Applications (MCA)
+M.Sc in computers
+Masters in System Management
+B.Tech and B.E
+M.Tech
+Certification Courses
+Diploma in Computer Applications
+Post Graduate Diploma in Computer Applications
+DOEACC's O, A, B, C level courses. For Details, check the DOEACC's website:
+Eligibility
+It depends on the kind of course and the level of study
+
+For a course at undergraduate level one needs to have passes 10+2 in science.
+For a "B" level or graduate level DOE scheme one needs to have an "A" level certificate of diploma in computers or an equivalent.
+For Post Graduate courses graduation in Computer Science or any other degree related to science, mathematics, statistics or operational research is required.
+Colleges, Institutions and Universities
+There are more than 200 Engineering Colleges and more than 1000 Institutes which are engaged in imparting computer education in India both in Hardware and Software. Some of the well-known institutes in the private sector imparting computer education are:
+
+Aptech
+NIIT
+Pentasoft
+IIS Webcity
+Informatics and First Computers
+The following Universities are providing education and career opportunities through BE (Computer Science), B.Tech (Computer Science), Bachelor in Computer Science (BCA), Bachelor in Science with Information Technology (B.Sc-IT), Master in Computer Science (MCA), Master of Technology (M. Tech), Master in Science with Information Techno-logy ( M.Sc-IT), Master in Computers Management (MCM), Post Graduate Diploma in Computer Applications (PGDCA), Diploma courses or certificate courses:
+
+Department of Computer Science, Alagappa University, Karaikudi-630003.
+Department of Computer Science, Andhra University, Visakhapatnam - 530003.
+Department of Computer Science and Engineering, Annamalai University, Anna- malainagar - 608 002.
+Department of Computer Science, Bharathidasan University, Tiruchirappali;
+http://www.bdu-ernet.in
+Department of Computer Engineering, Birla Institute of Technology and Science, Pilani - 333 031; website: http://www.bits-pilani.ac.in
+Post-graduate Department of Computer Science, University of Kashmir, Hazratbal
+Department of Computer Science, University of Delhi, Delhi -110007.
+Institute of Computer Science, Guru Ghasidas University, Balaspur - 495 009.
+of Computer Science, Guru Jambheshwar University, Hisar-125 001, Haryana.
+Department of Computer Science, University of Hyderabad, P.O. Central University, Hyderabad-500 046.
+Institute of Computer Science and Engineering, Jamia Millia Islamia, Jamia Nagar, New Delhi-110025.
+Department of Computer Science, University of Jammu, Dr. B.R. Ambedker Marg, Jammu-180004.
+Department of Computer Science, University of Mysore, Mysore-570 006.
+Department of Computer Science, Osmania University, Hyderabad, 500 036.
+Department of Computer Science, Madurai Kamaraj Univeristy, Palkalainagar, Madurai, Tamil Nadu - 625021; website: http://mku.ac.in
+Centre for Computer Science and Engineering, Anna University, Chennai.
+School of Computer Enginee-ring, Jawaharlal Nehru Technological University, Mahaveer Marg, Hyderabad- 500 008.
+School of Computer Science, Kakatiya University, Warangal- 506 009.
+Department of Computer Science, Kurukshetra Univer-sity, Kurukshetra - 136 119; website: http://www.kuk/ernet.in
+Institute of Computer Science, University of Madras, Chepauk Chennai-600005.
+Department of Computer Science, Manonmaniam Sundaranar University, Abishakapathi, Thirunelveli ? 627012
+School of Computer Science, Mother Teresa Women's University, Saidapet, Chennai- 600 015.
+Institute of Computer Science, University of Mumbai, Mumbai- 400098.
+Centre for Computer Science and Engineering, Osmania University, Hyderabad-500 007; Website: http://www.ou. org
+Department of Computer Science, Utkal University, Bhubaneshwar - 751004
+Department of Computer Science, Dr. B. R. Ambedkar Open University, Prof. G. Ram Reddy Marg, Road No. 46, Jubilee Hills, Hyderabad- 500033; Tel: 040-3544728; 3544986.
+School of Computer Science, Indira Gandhi National Open University, Maidan Garhi, New-Delhi - 110068; Tel: 011-6853421; 6865923; Website: http://www.ignou.ac.in
+Department of Computer Science, Karnataka State Open University, Manesa-gangotri, Mysore - 570 006; Tel: 0821-500 846, 51247.
+Department of Computer Science, Kota Open University, Rawatbhate
+Department of Computer Science, Dr. B. R. Ambedkar Open University, Prof. G. Ram Reddy Marg, Road No. 46, Jubilee Hills, Hyderabad- 500033; Tel: 040-3544728; 3544986.
+School of Computer Science, Indira Gandhi National Open University, Maidan Garhi, New-Delhi - 110068; Tel: 011-6853421; 6865923; Website: http://www.ignou.ac.in
+Department of Computer Science, Karnataka State Open University, Manesa-gangotri, Mysore - 570 006; Tel: 0821-500 846, 51247.
+Department of Computer Science, Kota Open University, Rawatbhate Road, Akelgarh, Kota - 324010; Tel: 0744-426451
+Madhya Pradesh Bhoj (Open) University, Campus-I, Red Cross Bhawan, Shivaji Nagar, Bhopal-462 016; Tel: 0755-576555; 272018; Website: http://www.mpbou.org
+Yashwantrao Chavan Mahara-shtra, Open University, Dnyangangotri, near Ganga-pur Dam, Nashik - 422 222; Tel: 0253-341714; 341715
+Department of Electronics Accredited Computer Courses (DOEACC), Centre Calicut/ Srinagar/Jammu/Bangalore.
+Centre for Design of Advance Computing (C-DAC), Mohali, Punjab.
+Specialization
+One can specialize as:
+
+Software Engineers: They design programs and specialized packages for the required purposes. There work even involves research and development.
+Web developers: They are electronics and computer engineers who are engaged in developing websites for the Internet.
+System analysts: They look after the work of final testing of the software and advising the clients on the purchase and installation of the computer systems. They also are responsible for researching the organizational procedures and planning their computerization.
+Consultants: They provide expert guidance to the companies during the purchase of the computer system. System analyst or designers with considerable amount of experience can work as consultants.
+Technical writers: they are involved in writing manuals for computers.
+E-commerce: They are adept in the net-com business, e-commerce fundamentals and its security issues and assist in developing websites for commercial purposes.
+Knowledge engineers: They are expert in designing of the computer systems, which are associated with a human expert, like medical diagnosis or safety systems for industry.
+Webmasters: They handle the task of configuration and setting up of the websites and its development. They have to take care of the security of the websites and create firewalls against the hackers and stalkers.
+Networking: This work involves designing of networks, implementation of support, servicing and management.
+Computer education: This job involves giving training to the end users, students or computer professionals in advanced technologies.
+Career Prospects
+India is no longer considered as country of Castes, Curry and Cows with an ossified society. According to India's National Knowledge Commission, India well positioned to take advantage of the knowledge revolution which can be seen the dramatic revolution in the field of Information and Technology. This has witnessed a wide range of macroeconomics implications which can be seen in the development of multi-million dollar IT sector and creating of a huge amount of job potential for a large assembly of English speaking scientific professionals.
+
+Information Technology encompasses a wide range of activities like Office Automation, Telecommunication and Computing, therefore provides a larger area of job avenues for those who have acquired the right qualifications for it. At the beginning of this millennium NASSCOM, National Association of Software and Services Companies made an estimate that India would require 10,00,000 trained software professionals in few years. The present availability such skilled people is only 5% of the required amount. So we can conclude that this sector is going to provide employment to a large number of such professionals.
+
+Remunerations
+These professionals earn a good amount of salary and incentives. The pay scales vary from job to job and depend on the level of qualification and performance.
+
+The data entry staff earns in the range of Rs 5000 to Rs 15,000 and so do the computer operator and supervisors. The pay scale in the programming jobs range from Rs 5000 to Rs 20,000 per month. Software consultants can earn around Rs 50,000 per month. At the Management level the pay scales varies to Rs.1,00,000 per month. At the Maintenance level one can earn around Rs 15,000 to Rs 1,00,000 per month so are the salaries of those who are at Research and Development level.
+
+ 

@@ -1,0 +1,117 @@
+<html>
+<body>
+<link href="finalsl.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" language="javascript">
+function verifyData()
+{
+ if(document.getElementById('name').value=="")
+ {
+   alert("Please enter name");
+   document.getElementById('name').focus();
+   return false;
+ }
+ else if(document.getElementById('email').value=="")
+ {
+   alert("Please enter email");
+   document.getElementById('email').focus();
+   return false;
+ }  
+ else if(document.getElementById('post').value=="")
+ {
+   alert("Please enter post");
+   document.getElementById('post').focus();
+   return false;
+ } 
+  else if(document.getElementById('qualification').value=="")
+ {
+   alert("Please enter qualification");
+   document.getElementById('qualification').focus();
+   return false;
+ } 
+  else if(document.getElementById('skill').value=="")
+ {
+   alert("Please enter your skills");
+   document.getElementById('skill').focus();
+   return false;
+ }
+  else if(document.getElementById('workexpyear').value=="")
+ {
+   alert("Please enter work experiance");
+   document.getElementById('workexpyear').focus();
+   return false;
+ }  
+  else if(document.getElementById('workexpmonth').value=="")
+ {
+   alert("Please enter work experiance");
+   document.getElementById('workexpmonth').focus();
+   return false;
+ } 
+  else if(document.getElementById('salary').value=="")
+ {
+   alert("Please enter salary");
+   document.getElementById('salary').focus();
+   return false;
+ }  
+ else if(document.getElementById('curremp').value=="")
+ {
+   alert("Please enter current employment");
+   document.getElementById('curremp').focus();
+   return false;
+ }  
+ else if(document.getElementById('jobdes').value=="")
+ {
+   alert("Please enter job description");
+   document.getElementById('jobdes').focus();
+   return false;
+ }  
+ else if(document.getElementById('jobloc').value=="")
+ {
+   alert("Please enter current location");
+   document.getElementById('jobloc').focus();
+   return false;
+ } 
+ 
+ else 
+ { alert("You have posted job!");
+
+ return true;
+}
+}
+</script>  
+<form id="apply" action="postjob.php" method="post" name="postjob" onSubmit="return verifyData(document.apply);">
+<table class="pageheader" height="25%" width="100%" cellspacing="0">
+<tr> <td>  </td></tr>   </table>
+<table cellspacing="0" height="7%" width="100%" border="1" bordercolor="#0080C0">
+<tr><td><script src="xaramenu.js"></script><script webstyle3 src="cutback1.js"></script></script> </td></tr></table>
+<table width="80%"  cellpadding="10" cellspacing="0" align="center">
+<th bgcolor="#003366"  colspan="2"><i><h1 style="color:#00CCFF"> POST JOBS</h1></i></th>
+
+<tr bgcolor="#66CCFF"><td align="right" width="50%">COMPANY'S NAME:</td><td align="left" width=
+"50%"><input type="text" size="25" name="name" id="name"></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">EMAIL ADDRESS:</td><td><input type="text" size="25" name="email" id="email"></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">POST/DESIGNATION:</td><td><input type="text" size="25" name="post" id="post"></td></tr>
+<tr bgcolor="66CCFF" ><td align="right">QUALIFICATION:</td><td><input type="text" size="25" name="qualification" id="qualification"></td></tr>
+
+<tr bgcolor="66CCFF"><td align="right">OTHER SKILLS:</td><td> <input type="text" size="25" name="skill" id="skill" ></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">WORK EXPERIENCE:</td><td>
+<select name="workexpyear" id="workexpyear"><option>YEAR</option><option value="00">00</option><option value="01">01<option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option></select>
+<select name="workexpmonth" id="workexpmonth"><option>MONTH</option><option value="00">00</option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option></select>
+</td></tr>
+<tr bgcolor="#66ccff"><td align="right">SALARY:</td><td><input type="text" size="25" name="salary" id="salary"></td></tr>
+
+<tr bgcolor="#66ccff"><td align="right">CURRENT EMPLOYER:</td><td><input type="text" size="25" name="curremp" id="curremp"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">JOB DESCRIPTION:</td><td><input type="text" size="25" name="jobdes" id="jobdes"></td></tr>
+
+
+<tr bgcolor="#66ccff"><td align="right">JOB LOCATION:</td><td><input type="text" size="25" name="jobloc" id="jobloc"></td></tr>
+<tr bgcolor="#66ccff"><td colspan="2" align="center">Do you agree?I have read and agreed to the SuccessLadder.com Terms of Service and privacy policy and to receive important communication from SuccessLadder.com electronically.. 
+<tr bgcolor="#008080"><td colspan="2" align="center"><input type="submit"  value="SUBMIT APPLICATION" name="submit">
+<input type="reset" value="Cancel" name="cancel"></td></tr>
+<table cellspacing="0" height="8%" width="100%" >
+<tr><td><script webstyle3 src="dingleberry.js"></script></td>
+</tr>
+</table>
+</table>
+</form>
+</body>
+</html>

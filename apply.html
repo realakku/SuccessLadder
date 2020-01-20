@@ -1,0 +1,157 @@
+<html>
+<body>
+<link href="finalsl.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" language="javascript">
+function verifyData()
+{
+ if(document.getElementById('name').value=="")
+ {
+   alert("Please enter name");
+   document.getElementById('name').focus();
+   return false;
+ }
+ else if(document.getElementById('email').value=="")
+ {
+   alert("Please enter email");
+   document.getElementById('email').focus();
+   return false;
+ }  
+ else if(document.getElementById('subject').value=="")
+ {
+   alert("Please enter subject");
+   document.getElementById('subject').focus();
+   return false;
+ } 
+  else if(document.getElementById('reshead').value=="")
+ {
+   alert("Please enter resume head");
+   document.getElementById('reshead').focus();
+   return false;
+ } 
+  else if(document.getElementById('skill').value=="")
+ {
+   alert("Please enter your skills");
+   document.getElementById('skill').focus();
+   return false;
+ }
+  else if(document.getElementById('workexpyear').value=="")
+ {
+   alert("Please enter work experiance");
+   document.getElementById('workexpyear').focus();
+   return false;
+ }  
+  else if(document.getElementById('workexpmonth').value=="")
+ {
+   alert("Please enter work experiance");
+   document.getElementById('workexpmonth').focus();
+   return false;
+ } 
+  else if(document.getElementById('currsal').value=="")
+ {
+   alert("Please enter current salary");
+   document.getElementById('currsal').focus();
+   return false;
+ }  
+ else if(document.getElementById('empstatus').value=="")
+ {
+   alert("Please enter employment status");
+   document.getElementById('empstatus').focus();
+   return false;
+ }  
+ else if(document.getElementById('curremp').value=="")
+ {
+   alert("Please enter curremp");
+   document.getElementById('curremp').focus();
+   return false;
+ }  
+ else if(document.getElementById('currdes').value=="")
+ {
+   alert("Please enter current designation");
+   document.getElementById('currdes').focus();
+   return false;
+ } 
+  else if(document.getElementById('currloc').value=="")
+ {
+   alert("Please enter current location");
+   document.getElementById('currloc').focus();
+   return false;
+ }  
+ else if(document.getElementById('prejobloc').value=="")
+ {
+   alert("Please enter preferred job location");
+   document.getElementById('prejobloc').focus();
+   return false;
+ }  
+ else if(document.getElementById('qualification').value=="")
+ {
+   alert("Please enter qalification");
+   document.getElementById('qalification').focus();
+   return false;
+ }  
+ else if(document.getElementById('mobile').value=="")
+ {
+   alert("Please enter mobile number");
+   document.getElementById('mobile').focus();
+   return false;
+ }  
+ else if(document.getElementById('cover').value=="")
+ {
+   alert("Please enter cover note");
+   document.getElementById('cover').focus();
+   return false;
+ } 
+  else if(document.getElementById('resume').value=="")
+ {
+   alert("Please upload resume");
+   document.getElementById('resume').focus();
+   return false;
+ }  
+ else 
+ { alert("You have been registered");
+
+ return true;
+}
+}
+</script>  
+<form id="apply" action="apply.php" method="post" name="apply" onSubmit="return verifyData(document.apply);">
+<table class="pageheader" height="25%" width="100%" cellspacing="0">
+<tr> <td>  </td></tr>   </table>
+<table cellspacing="0" height="7%" width="100%" border="1" bordercolor="#0080C0">
+<tr><td><script src="xaramenu.js"></script><script webstyle3 src="cutback1.js"></script></script> </td></tr></table>
+<table width="80%"  cellpadding="10" cellspacing="0" align="center">
+<th bgcolor="#003366"  colspan="2"><i><h1 style="color:#00CCFF"> JOB APPLICATION FORM</h1></i></th>
+
+<tr bgcolor="#66CCFF"><td align="right" width="50%">YOUR NAME:</td><td align="left" width=
+"50%"><input type="text" size="25" name="name" id="name"></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">YOUR EMAIL:</td><td><input type="text" size="25" name="email" id="email"></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">SUBJECT:</td><td><input type="text" size="25" name="subject" id="subject"></td></tr>
+<tr bgcolor="66CCFF" ><td align="right">RESUME HEADLINE:</td><td><input type="text" size="25" name="reshead" id="reshead"></td></tr>
+
+<tr bgcolor="66CCFF"><td align="right">SKILLS:</td><td> <input type="text" size="25" name="skill" id="skill" ></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">WORK EXPERIENCE:</td><td>
+<select name="workexpyear" id="workexpyear"><option>YEAR</option><option value="00">00</option><option value="01">01<option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option></select>
+<select name="workexpmonth" id="workexpmonth"><option>MONTH</option><option value="00">00</option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option></select>
+</td></tr>
+<tr bgcolor="#66ccff"><td align="right">CURRENT ANNUAL SALARY:</td><td><input type="text" size="25" name="currsal" id="currsal"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">EMPLOYMENT STATUS:</td><td><input type="radio" name="empstatus" id="empstatus" value="employed" checked="checked">EMPLOYED<input type="radio" name="empstatus" id="empsatus" value="not employed">NOT EMPLOYED<input type="radio" name="empstatus" id="empsatus" value="fresher" >FRESHER</td></tr>
+<tr bgcolor="#66ccff"><td align="right">CURRENT EMPLOYER:</td><td><input type="text" size="25" name="curremp" id="curremp"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">CURRENT DESIGNATION:</td><td><input type="text" size="25" name="currdes" id="currdes"></td></tr>
+
+<tr bgcolor="#66ccff"><td align="right">CURRENT LOCATION:</td><td><input type="text" size="25" name="currloc" id="currloc"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">PREFERRED JOB LOCATION:</td><td><input type="text" size="25" name="prejobloc" id="prejobloc"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">QUALIFICATION:</td><td><input type="text" size="25" name="qualification" id="qualification"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">MOBILE NUMBER:</td><td><input type="text" size="25" name="mobile" id="mobile"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">COVER NOTE:</td><td><input type="text"  size="25" maxlength="50" name="cover" id="cover"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">RESUME:</td><td><input type="file" size="25" value="BROWSE" name="resume" id="resume"></td></tr>
+
+<tr bgcolor="#66ccff"><td colspan="2" align="center">Do you agree?I have read and agreed to the SuccessLadder.com Terms of Service and privacy policy and to receive important communication from SuccessLadder.com electronically.. 
+<tr bgcolor="#008080"><td colspan="2" align="center"><input type="submit"  value="SUBMIT APPLICATION" name="submit">
+<input type="reset" value="Cancel" name="cancel"></td></tr>
+<table cellspacing="0" height="8%" width="100%" >
+<tr><td><script webstyle3 src="dingleberry.js"></script></td>
+</tr>
+</table>
+</table>
+</form>
+</body>
+</html>

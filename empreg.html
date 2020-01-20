@@ -1,0 +1,161 @@
+<html>
+<body>
+<link href="finalsl.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" language="javascript">
+function verifyData()
+{
+ if(document.getElementById('name').value=="")
+ {
+   alert("Please enter name of the company");
+   document.getElementById('name').focus();
+   return false;
+ }
+ else if(document.getElementById('companydes').value=="")
+ {
+   alert("Please enter company description");
+   document.getElementById('companydes').focus();
+   return false;
+ }  
+ else if(document.getElementById('best').value=="")
+ {
+   alert("Please enter What Describes you best..");
+   document.getElementById('best').focus();
+   return false;
+ } 
+  else if(document.getElementById('website').value=="")
+ {
+   alert("Please enter company website");
+   document.getElementById('website').focus();
+   return false;
+ } 
+  else if(document.getElementById('phone').value=="")
+ {
+   alert("Please enter company phone number");
+   document.getElementById('phone').focus();
+   return false;
+ }
+  else if(document.getElementById('address').value=="")
+ {
+   alert("Please enter company address");
+   document.getElementById('address').focus();
+   return false;
+ }  
+  else if(document.getElementById('city').value=="")
+ {
+   alert("Please enter city");
+   document.getElementById('city').focus();
+   return false;
+ } 
+  else if(document.getElementById('state').value=="")
+ {
+   alert("Please enter state");
+   document.getElementById('state').focus();
+   return false;
+ }  
+ else if(document.getElementById('country').value=="")
+ {
+   alert("Please enter country");
+   document.getElementById('country').focus();
+   return false;
+ }  
+ else if(document.getElementById('postalcode').value=="")
+ {
+   alert("Please enter postal code");
+   document.getElementById('postalcode').focus();
+   return false;
+ }  
+ else if(document.getElementById('fname').value=="")
+ {
+   alert("Please enter first name");
+   document.getElementById('fname').focus();
+   return false;
+ } 
+  else if(document.getElementById('lname').value=="")
+ {
+   alert("Please enter last name");
+   document.getElementById('lname').focus();
+   return false;
+ }  
+ else if(document.getElementById('contactno').value=="")
+ {
+   alert("Please enter contact number");
+   document.getElementById('contactno').focus();
+   return false;
+ }  
+ else if(document.getElementById('account').value=="")
+ {
+   alert("Please enter account");
+   document.getElementById('account').focus();
+   return false;
+ }  
+ else if(document.getElementById('email').value=="")
+ {
+   alert("Please enter email");
+   document.getElementById('email').focus();
+   return false;
+ }  
+ else if(document.getElementById('newuserid').value=="")
+ {
+   alert("Please enter new user id");
+   document.getElementById('newuserid').focus();
+   return false;
+ } 
+  else if(document.getElementById('password').value=="")
+ {
+   alert("Please enter password");
+   document.getElementById('password').focus();
+   return false;
+ }  
+ else if(document.getElementById('hear').value=="")
+ {
+   alert("Please enter how did you....??");
+   document.getElementById('hear').focus();
+   return false;
+ }  
+ else 
+ { alert("You have been registered");
+
+ return true;
+}
+}
+</script>  
+<form id="empreg" action="empreg.php" method="post" name="empreg" onSubmit="return verifyData(document.empreg);">
+<table class="pageheader" height="25%" width="100%" cellspacing="0">
+<tr> <td>  </td></tr>   </table>
+<table cellspacing="0" height="7%" width="100%" border="1" bordercolor="#0080C0">
+<tr><td><script src="xaramenu.js"></script><script webstyle3 src="cutback1.js"></script></script> </td></tr></table>
+<table width="80%"  cellpadding="10" cellspacing="0" align="center">
+<th bgcolor="#003366"  colspan="2"><i><h1 style="color:#00CCFF"> EMPLOYER/RECRUITER REGISTRATION</h1></i></th>
+<tr  bgcolor="#008080"><th  align="center" colspan="2"><b><h2><i> Company Information:</i></h2></b></th></tr>
+<tr bgcolor="#66CCFF"><td align="right" width="50%">NAME OF COMPANY:</td><td align="left" width=
+"50%"><input type="text" size="25" name="name" id="name"></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">COMPANY DESCRIPTION:</td><td><input type="text" size="25" name="companydes" id="companydes"></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">WHAT DESCRIBES YOU BEST?:</td><td><input type="text" size="25" name="best" id="best"></td></tr>
+<tr bgcolor="66CCFF" ><td align="right">WEBSITE:</td><td><input type="text" size="25" name="website" id="website"></td></tr>
+<tr bgcolor="#008080"><th align="center" colspan="2"><b><h2><i>Contact Details:</i></h2></b></th></tr>
+<tr bgcolor="66CCFF"><td align="right">PHONE NUMBER:</td><td> <input type="text" size="25" name="phone" id="phone"></td></tr>
+<tr bgcolor="#66CCFF"><td align="right">ADDRESS:</td><td><input type="text" size="25" name="address" id="address"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">CITY:</td><td><input type="text" size="25" name="city" id="city"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">STATE:</td><td><input type="text" size="25" name="state" id="state"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">COUNTRY:</td><td><input type="text" size="25" name="country" id="country"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">POSTAL CODE:</td><td><input type="text" size="25" name="postalcode" id="postalcode"></td></tr>
+<tr bgcolor="#008080"><th align="center" colspan="2"><b><h2><i>Recruiter/HR Person Info:</i></h2></b></th></tr>
+<tr bgcolor="#66ccff"><td align="right">CONTACT PERSON NAME FIRST NAME:</td><td><input type="text" size="25" name="fname" id="fname"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">LAST NAME:</td><td><input type="text" size="25" name="lname" id="lname"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">CONTACT NUMBER:</td><td><input type="text"size="25" name="contactno" id="contactno"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">ACCOUNT SELECTION:</td><td><input type="text" size="25" name="account" id="account"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">EMAIL:</td><td><input type="text" size="25" name="email" id="email"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">NEW USER ID:</td><td><input type="text" size="25" name="newuserid" id="newuserid"></td></tr>
+<tr bgcolor="#66ccff"><td align="right">PASSWORD:</td><td><input type="password" size="25" name="password" id="password"></td></tr> 
+<tr bgcolor="#66ccff"><td align="right">HOW DID YOU HEAR ABOUT US?:</td><td><input type="text" size="25" name="hear" id="hear"></td></tr>
+<tr bgcolor="#66ccff"><td colspan="2" align="center">Do you agree?I have read and agreed to the SuccessLadder.com Terms of Service and privacy policy and to receive important communication from SuccessLadder.com electronically.. 
+<tr bgcolor="#008080"><td colspan="2" align="center"><input type="submit"  value="REGISTER">
+<input type="submit" value="RESET"></td></tr>
+<table cellspacing="0" height="8%" width="100%" >
+<tr><td><script webstyle3 src="dingleberry.js"></script></td>
+</tr>
+</table>
+</table>
+</form>
+</body>
+</html>
